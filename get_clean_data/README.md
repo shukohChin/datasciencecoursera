@@ -14,7 +14,7 @@ In this project, three files listed below were uploaded.
   A script file that can be run as long as the Samsung data is in working directory.
 
 ## how to run script
-1. Start with the [UCI HAR Dataset] data folder and R script file in your working directory.
+- Start with the [UCI HAR Dataset] data folder and R script file in your working directory.
 
 ```r
 // Go to working directory. Download the data and unzip. Put run_analysis.R into working directory too.
@@ -22,4 +22,4 @@ download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 unzip("getdata_project_data")
 ```
 
-2. Call RunAnalysis() in the R console or Rstudio. Then the tidy data file(tidyData.txt) will be created in your working directory.
+- Call RunAnalysis() in the R console or Rstudio. Then the tidy data file(tidyData.txt) will be created in your working directory.
