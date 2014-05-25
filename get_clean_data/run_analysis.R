@@ -1,4 +1,4 @@
-Run_analysis <- function() 
+RunAnalysis <- function() {
   # assume the UCI CHAR Dataset and R script to be in the working directory
   # create a txt file of tidy data required
   x.train <- read.table(paste0(getwd(), '/UCI HAR Dataset/train/X_train.txt'))
