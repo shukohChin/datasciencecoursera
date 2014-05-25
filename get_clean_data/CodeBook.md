@@ -39,7 +39,7 @@ subject.test <- read.table(paste0(getwd(), "/UCI HAR Dataset/test/subject_test.t
 y.test <- read.table(paste0(getwd(), "/UCI HAR Dataset/test/Y_test.txt"))
 ```
 
-- merge the training and the test sets of X, subject, and Y
+- merge the training and the test sets of X, subject, and Y.
 
 ```r
 data <- rbind(x.train, x.test)
@@ -63,7 +63,7 @@ colnames(subject) <- c("subject")
 colnames(activity) <- c("activity")
 ```
 
-- extracts only the measurements on the mean and standard deviation for each measurement  
+- extracts only the measurements on the mean and standard deviation for each measurement.  
 According to features_info.txt, I assume that names which contain "mean" or "std" are the measurements on the mean and standard deviation.(We can also see variable names contain "Mean" in angle() function, they won't be picked up because they are for angle measurements)
 
 ```r
