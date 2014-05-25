@@ -26,7 +26,7 @@ According to [Google's R style Guide](https://google-styleguide.googlecode.com/s
 
 #### Process
 - Read the data into R  
-In this step, we read data into R. According to "README.txt" in the [UCI HAR Dataset] folder, we can egnore the [Inertial Signals] folder because these information have already been contained in X\_train.txt and X\_test.txt. We will also know, files we need are like below.(Reference 1)
+In this step, we read data into R. According to "README.txt" in the [UCI HAR Dataset] folder, we can ignore the [Inertial Signals] folder because these information have already been contained in X\_train.txt and X\_test.txt. We will also know, files we need are like below.(Reference 1)
 ![files needed](https://coursera-forum-screenshots.s3.amazonaws.com/d3/2e01f0dc7c11e390ad71b4be1de5b8/Slide2.png)  
 So we load each file in test folder and train folder.  
 
