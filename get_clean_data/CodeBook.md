@@ -64,7 +64,12 @@ colnames(activity) <- c("activity")
 ```
 
 - extracts only the measurements on the mean and standard deviation for each measurement.  
-According to features_info.txt, I assume that names which contain "mean" or "std" are the measurements on the mean and standard deviation.(We can also see variable names contain "Mean" in angle() function, they won't be picked up because they are for angle measurements)
+According to features_info.txt,  
+ + mean(): Mean value
+ + std(): Standard deviation
+ + meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+
+  Although meanFreq() is not a direct mean measurement, it is still a **mean** frequency, so I assume that names which contain "mean" or "std" are the measurements on the mean and standard deviation. We may also see some variable names contain "Mean" in angle() function, they won't be included because they are for angle measurements.
 
 ```r
 tidy.features <- grep("std|mean", features$V2)
