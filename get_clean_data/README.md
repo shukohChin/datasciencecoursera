@@ -2,7 +2,7 @@ Getting and Cleaning Data Project
 ========================================================
 
 ## summary  
-In this project, data collected from the accelerometers from the Samsung Galaxy S smartphone would be processed, and tidy data that can be used for analysis is prepared. For more information of the raw data, see [Human Activity Recognition Using Smartphones Dataset]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones""). You can also download the data from [here]("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip").
+In this project, data collected from the accelerometers from the Samsung Galaxy S smartphone would be processed, and tidy data that can be used for analysis is prepared. For more information of the raw data, see [Human Activity Recognition Using Smartphones Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). You can also download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ## submitting files
 In this project, three files listed below were uploaded. 

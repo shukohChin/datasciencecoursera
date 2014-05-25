@@ -13,7 +13,7 @@ In this document, the variables, the data, and any transformations or work that 
   There are 561 kinds of measurements with time and frequency provided in the raw data. Information of feature meaning can be found at features_info.txt in [UCI HAR Dataset] folder.
 
 ## Naming strategy
-According to [Google's R style Guide]("https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers"), naming strategy when coding is listed below.  
+According to [Google's R style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers), naming strategy when coding is listed below.  
 - Not use underscores(_) or hyphens(-) in variable names
 - First letter of function name is Capital
 - *variable.name* is preferred, *variableName*(camel style) is accepted
@@ -27,7 +27,7 @@ According to [Google's R style Guide]("https://google-styleguide.googlecode.com/
 #### Process
 - Read the data into R  
 In this step, we read data into R. According to "README.txt" in the [UCI HAR Dataset] folder, we can egnore the [Inertial Signals] folder because these information was already contained in X\_train.txt and X\_test.txt. We will also know, files we will need are like below.(Reference 1)
-![files needed](https://coursera-forum-screenshots.s3.amazonaws.com/d3/2e01f0dc7c11e390ad71b4be1de5b8/Slide2.png)  
+![files needed]("https://coursera-forum-screenshots.s3.amazonaws.com/d3/2e01f0dc7c11e390ad71b4be1de5b8/Slide2.png")  
 Then we first load six files below into R.
 
 ```r
