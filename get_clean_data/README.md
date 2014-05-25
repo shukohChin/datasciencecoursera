@@ -22,4 +22,4 @@ download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 unzip("getdata_project_data")
 ```
 
-2. Call run_analysis() in the R console or Rstudio. Then the tidy data file(tidyData.txt) will be created in your working directory.
+2. Call RunAnalysis() in the R console or Rstudio. Then the tidy data file(tidyData.txt) will be created in your working directory.
