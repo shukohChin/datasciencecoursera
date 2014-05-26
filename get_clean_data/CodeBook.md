@@ -10,8 +10,14 @@ In this document, the variables, the data, and any transformations or work that 
 - activity  
   **activity** is [categorical variable]. It represents six activities wearing a smartphone(Samsung Galaxy S II) on the waist. The six activities are (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING).  
 - features that were measured  
-  There are 561 kinds of measurements with time and frequency provided in the raw data. Information of feature meaning can be found at features_info.txt in [UCI HAR Dataset] folder.
-
+  There are 561 kinds of measurements with time and frequency provided in the raw data. Information of feature meaning can be found at features_info.txt in [UCI HAR Dataset] folder.  
+In the tidy dataset, there are 81 columns prepared. The original feature name is like "tBodyAcc-mean()-X", and the tidy name in my project will be like "tBodyAccmeanX". The means of each segment in the feature names are listed below.   
+  - t: time
+  - f: frequency
+  - Acc: acceleration
+  - Gyro: gyrometer
+  - XYZ: three-dimensional
+ 
 ## Naming strategy
 According to [Google's R style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers), naming strategy when coding is listed below.  
 - Not use underscores(_) or hyphens(-) in variable names
