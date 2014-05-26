@@ -23,3 +23,6 @@ unzip("getdata_project_data")
 ```
 
 - Call RunAnalysis() in the R console or Rstudio. Then the tidy data file(tidyData.txt) will be created in your working directory.
+
+## how the script works
+- See [How data was processed](https://github.com/shukohChin/datasciencecoursera/blob/master/get_clean_data/CodeBook.md) part in CodeBook.md

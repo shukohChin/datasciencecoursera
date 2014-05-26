@@ -19,7 +19,7 @@ According to [Google's R style Guide](https://google-styleguide.googlecode.com/s
 - *variable.name* is preferred, *variableName*(camel style) is accepted
 - Place spaces around all binary operators (=, +, -, <-, etc.)
 
-## How data was process
+## How data was processed
 #### Before(See README.md)
 - Download the raw data
 - Unzip the data.
